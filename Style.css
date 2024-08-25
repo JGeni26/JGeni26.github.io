@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 200px;
+}
+.product-list, .cart {
+    width: 45%;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+.product, .cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.product button, .cart-item button {
+    margin-left: 10px;
+}
